@@ -10,11 +10,17 @@ html {
 
 body {
     --very-light-gray: #FAFAFA;
-    --very-dark-blue-light-mode-text: #111517;
+    --very-dark-blue-light-mode-text: #202C37;
     --white: #FFFFFF;
     font-family: 'Nunito Sans', sans-serif;
     background-color: var(--very-light-gray);
     color: var(--very-dark-blue-light-mode-text);
+}
+
+body.dark {
+    --very-light-gray: #202C37;
+    --very-dark-blue-light-mode-text: #FAFAFA;
+    --white: #2B3743;
 }
 
 h1 {
@@ -106,7 +112,7 @@ h1 {
 }
 
 .card-body {
-    padding: 0 2rem 1.5rem 2rem;
+    padding: 0 .7rem 1rem 1rem;
 }
 
 .card-body p {
